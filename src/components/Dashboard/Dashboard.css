@@ -1,0 +1,146 @@
+.dashboard-container {
+  display: flex;
+  width: 100vw; /* Use viewport width to ensure full width */
+  min-height: 100vh; /* Ensure it spans the full viewport height */
+  background-color:#EDF0F4;
+  flex-wrap: nowrap; /* Prevent unintended wrapping */
+  overflow-x: hidden; /* Prevent horizontal scrollbars */
+}
+
+.dashboard-content {
+  flex: 1; /* Allow this section to take up remaining space */
+  padding: 20px;
+  background-color: #EDF0F4; /* Optional: Match the inner content background */
+}
+
+.sidebar {
+  flex-shrink: 0; /* Prevent the sidebar from resizing */
+  width: 62px; /* Sidebar width stays fixed */
+  background-color: #fff; /* Ensure the sidebar has a defined color */
+}
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .charts {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .summary {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 20px;
+    background-color: #f8f9fc;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .summary {
+    margin-top: 10px;
+    background-color: #d5e3ff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .summary-header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .title-section {
+    text-align: left; 
+  }
+  
+  .title-section h3 {
+    font-size: 0.9 rem;
+    font-weight: bold;
+    margin: 0; 
+  }
+  
+  .title-section p {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #7B7C89;
+    margin: 5px 0; 
+  }
+  .penalty-saved {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+  }
+  
+  .penalty-saved span {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #7B7C89;
+}
+  
+  .penalty-card {
+    background-color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+  }
+  
+  .penalty-card h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #141414;
+    margin: 0;
+  }
+  
+  
+  .summary-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+  }
+  
+  .summary-card {
+    background-color: #fff;
+    flex: 1;
+    width: 350px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 70px;
+  padding-bottom: 20px;
+  }
+  
+  .summary-card h5 {
+    font-size: 0.9rem;
+    color: #7B7C89;
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
+  
+  .summary-card p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #424242;
+    margin-left: 5px;
+
+  }
+  

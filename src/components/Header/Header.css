@@ -1,0 +1,115 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #EDF0F4;
+  padding-bottom: 6px;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+}
+.symbol{
+  color: #8E8E8E;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.outstanding-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 3px;
+  font-weight: bold;
+  color: #333;
+  width: 280px;
+  height: 40px;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.label{
+  font-size: 15px;
+  color: #141414;
+  font-weight: 500;
+  margin-left: 6px;
+
+}
+.amount{
+  font-size: 18px;
+  color: #141414;
+  font-weight: 500;
+}
+.profile-icon {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.calendar-container {
+  background-color: #EDF0F4;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.calendar-header {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.calendar-days {
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+  color: #141414;
+  font-weight: bold;
+}
+
+.calendar-dates {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  color: #7B7C89;
+
+}
+
+.calendar-dates span {
+  font-size: 0.8rem;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.selected-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #ffa500 50%, #001f3f 50%);
+  border-radius: 16px;
+  padding: 2px 1px; 
+   color: white;
+  font-weight: bold;
+  
+}
+
+.selected-day {
+  font-size: 0.9rem;
+}
+
+.selected-number {
+  font-size: 1.1rem;
+}
+
